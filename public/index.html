@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notepad</title>
+    <style>
+        .container {
+            text-align: center;
+            background-color: #36da36;
+            margin: 10% 30% 0;
+            border-radius: 7px;
+        }
+
+        #save {
+            display: block;
+            margin: 3%;
+            padding: 1% 3%;
+            border-radius: 10px;
+            border: none;
+            background-color: black;
+            color: white;
+        }
+
+        #input {
+            padding: 2%;
+            size: 10% 30%;
+            height: 51px;
+            width: 89%;
+            border-radius: 10px;
+        }
+        #savedNote{
+            text-align: left;
+    background-color: red;
+    padding: 10px 10%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Take A Note</h1>
+        <input id="input" type="text" placeholder="Write something...">
+        <button id="save">Save</button>
+        <div id="savedNote">
+
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="../build/bundle.js"></script>
